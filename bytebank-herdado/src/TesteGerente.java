@@ -3,8 +3,10 @@ public class TesteGerente {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Gerente g1 = new Gerente();
 		
+		Autenticavel referencia = new Gerente();
+		
+		Gerente g1 = new Gerente();
 		g1.setNome("Marco");
 		g1.setCpf("123.123.123-12");
 		g1.setSalario(5000.00);
