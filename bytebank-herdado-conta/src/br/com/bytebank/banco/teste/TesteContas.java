@@ -1,9 +1,13 @@
+package br.com.bytebank.banco.teste;
+import br.com.bytebank.banco.especial.ContaEspecial;
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteContas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//ContaEspecial ce =  new ContaEspecial(123, 555);
 
 		
 		ContaCorrente cc = new ContaCorrente(111, 111);
