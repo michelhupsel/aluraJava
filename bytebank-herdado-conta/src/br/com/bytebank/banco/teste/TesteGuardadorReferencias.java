@@ -12,7 +12,6 @@ public class TesteGuardadorReferencias {
 		// exemplo generics
 		ArrayList<Conta> lista = new ArrayList<Conta>();
 
-		
 		ArrayList<String> nomes = new ArrayList<String>();
 
 		//Cliente cliente = new Cliente();

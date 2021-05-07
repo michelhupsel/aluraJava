@@ -11,7 +11,6 @@ public class TesteExercicio {
 		ArrayList<String> lista = new ArrayList<String>(); 
 		lista.add("Nico");
 		//Conta c = lista.get(0); //nao compila
-		//teste
 	}
 
 }

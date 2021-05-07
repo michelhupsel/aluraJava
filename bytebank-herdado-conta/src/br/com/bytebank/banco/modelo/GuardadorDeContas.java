@@ -1,5 +1,5 @@
 package br.com.bytebank.banco.modelo;
-//teste
+
 public class GuardadorDeContas {
 
 	private Conta[] referencias;

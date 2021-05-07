@@ -27,7 +27,6 @@ public class TesteArrayReferencias {
 		//ContaCorrente ref = (ContaCorrente) contas[1]; //ClassCastException
 		
 		//System.out.println(ref.getAgencia());
-		//teste
 		//System.out.println(contas[0]); 
 	}
 

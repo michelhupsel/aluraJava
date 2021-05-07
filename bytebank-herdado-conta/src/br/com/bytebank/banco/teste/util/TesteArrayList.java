@@ -17,7 +17,6 @@ public class TesteArrayList {
 		
 		ArrayList<String> nomes = new ArrayList<String>();
 
-		
 //		Cliente cliente = new Cliente();
 //		lista.add(cliente);
 		
