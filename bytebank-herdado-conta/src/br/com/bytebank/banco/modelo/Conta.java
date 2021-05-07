@@ -104,7 +104,7 @@ public abstract class Conta {
 	
 	@Override
 	public boolean equals(Object ref) {
-		
+		//cast mais específico
 		Conta outra = (Conta) ref;
 		
 		if(this.agencia != outra.agencia) {

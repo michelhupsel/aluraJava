@@ -9,7 +9,7 @@ public class TesteArrayString {
 		for (int i = 0; i < args.length; i++) {
 			System.out.println(args[i]);
 		}
-		
+		//teste
 		//System.out.println("Args: " + args.length);
 	}
 
