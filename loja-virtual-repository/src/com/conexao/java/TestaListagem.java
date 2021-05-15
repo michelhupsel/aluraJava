@@ -1,7 +1,6 @@
 package com.conexao.java;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -10,8 +9,8 @@ public class TestaListagem {
 
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
-		Connection connection = DriverManager.getConnection(
-				"jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC", "root", "321719");
+		ConnectionFactory criaConexao = new ConnectionFactory();
+		Connection connection = criaConexao.recuperarConexao();
 
 		// os comandos like sql são considerados statements dentro do java
 		Statement stm = connection.createStatement();
