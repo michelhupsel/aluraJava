@@ -17,20 +17,17 @@ public class TestaPontoFlutuante {
 //		
 //		double novaTentativa  = 5.0 / 2;
 //		System.out.println(novaTentativa);
-		        double salario = 1250.70;
+		double salario = 1250.70;
 
-		        System.out.println(salario);
+		System.out.println(salario);
 
-		        int valor = 12.5;             //não compila.
+//		        int valor = 12.5;             //não compila.
+//
+//		        int valor2 = 0.0;             //não compila.
+//
+//		        double teste = 125.50;        // compila
+//
+//		        int valor3 = teste;           //não compila.
 
-		        int valor2 = 0.0;             //não compila.
-
-		        double teste = 125.50;        // compila
-
-		        int valor3 = teste;           //não compila.
-
-		    }
-		}
 	}
-
 }
