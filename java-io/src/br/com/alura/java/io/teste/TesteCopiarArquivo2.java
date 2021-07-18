@@ -6,26 +6,40 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
 
-public class TesteLeitura {
+public class TesteCopiarArquivo2 {
 
 	public static void main(String[] args) throws IOException {
 		
-		OutputStream fos = new FileOutputStream("lorem2.txt");
+		InputStream fis = System.in; //new FileOutputStream("lorem3.txt");
+		InputStreamReader isr = new InputStreamReader(fis);
+		BufferedReader br = new BufferedReader(isr);
+		
+		OutputStream fos = System.out;//new FileOutputStream("lorem3.txt");
 		Writer osw = new OutputStreamWriter(fos);
 		BufferedWriter bw = new BufferedWriter(osw);
 		
-		bw.write("Teste de escrita com o write.\nOutra linha");
-		bw.newLine();
-		bw.newLine();
-		bw.write("Última linha.");
+
+		String linha = br.readLine();
 		
+		do {
+			bw.write(linha);
+			bw.newLine();
+			//bw.flush();
+			linha = br.readLine();
+		} while (linha != null && !linha.isEmpty());
+		
+		bw.write("\n\nCópia do original.");
+		
+		br.close();
 		bw.close();
+
 	}
 
 }

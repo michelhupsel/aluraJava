@@ -1,0 +1,4 @@
+Teste de escrita com o write.
+Outra linha
+
+Última linha.
