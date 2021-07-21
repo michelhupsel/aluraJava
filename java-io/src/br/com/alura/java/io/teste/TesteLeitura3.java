@@ -15,11 +15,12 @@ public class TesteLeitura3 {
 
 		while (scanner.hasNextLine()) {
 			String linha = scanner.nextLine();
-			//System.out.println(linha);
+			// System.out.println(linha);
 
 			Scanner linhaScanner = new Scanner(linha);
-			linhaScanner.useLocale(Locale.US); // deteminar as regras do padrão americano por conta da exception
-												// InputMismatchException
+			 linhaScanner.useLocale(Locale.US); // deteminar as regras do padrão americano
+			// por conta da exception
+			// InputMismatchException
 			linhaScanner.useDelimiter(",");
 
 			String valor1 = linhaScanner.next();
@@ -28,10 +29,9 @@ public class TesteLeitura3 {
 			String titular = linhaScanner.next();
 			double saldo = linhaScanner.nextDouble();
 
-			
-			String valorFormatado = String.format("%s - %d %d, %s: %f", valor1,agencia,numero,titular,saldo);
+			String valorFormatado = String.format("%s - %d %d, %s: %010.2f", valor1, agencia, numero, titular, saldo); //new Locale("pt","BR"),
 			System.out.println(valorFormatado);
-			
+
 //			System.out.println(valor1 + "," + valor2 + "," + valor3 + "," + valor4 + "," + valor5);
 			linhaScanner.close();
 
@@ -42,6 +42,7 @@ public class TesteLeitura3 {
 
 		scanner.close();
 
+		//System.out.println(String.format("Formatando %04d",20));
 	}
-
+	
 }
