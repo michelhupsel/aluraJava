@@ -17,7 +17,7 @@ public class TestandoListas {
 		aulas.add(aula3);
 		aulas.add("Teste");
 		aulas.remove(3);		
-				
+		
 		System.out.println(aulas);
 
 		aulas.remove(0);
@@ -45,6 +45,7 @@ public class TestandoListas {
 		aulas.add("Aumentando nosso conhecimento");
 		System.out.println("------------------- Ordenando -------------------"); 
 		System.out.println(aulas); 
+		
 		Collections.sort(aulas); 
 		System.out.println(aulas); 
 

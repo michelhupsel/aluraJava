@@ -7,7 +7,7 @@ import java.util.Comparator;
 public class TestaListaDeAula {
 
 	public static void main(String[] args) {
-		Aula a1 = new Aula("Revistando as ArrayLists", 21);
+		Aula a1 = new Aula("Revisitando as ArrayLists", 21);
 		Aula a2 = new Aula("Listas de objetos", 20);
 		Aula a3 = new Aula("Relacionamento de listas e objetos", 15);
 
@@ -22,11 +22,24 @@ public class TestaListaDeAula {
 
 		System.out.println(aulas);
 		
-		Collections.sort(aulas, Comparator.comparing(Aula::getTempo));
+//		Collections.sort(aulas, Comparator.comparing(Aula::getTempo));
+//		
+//		System.out.println(aulas);
+		
+		aulas.sort(Comparator.comparing(Aula::getTempo));
 		
 		System.out.println(aulas);
 		
-		aulas.sort(Comparator.comparing(Aula::getTempo));
+		
+		
+		
+//		String s1 = "paulo";
+//		String s2 = "silveira";
+//		System.out.println(s1.compareToIgnoreCase(s2));
+		
+		
+		
+
 	}
 
 }

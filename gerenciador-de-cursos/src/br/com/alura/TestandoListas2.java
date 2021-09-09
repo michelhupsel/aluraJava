@@ -15,12 +15,16 @@ public class TestandoListas2 {
         cursos.add(curso2);
         cursos.add(curso3);        
 
+        //Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 3
 //        for (int i = 0; i <= cursos.size(); i++) {
 //            System.out.println("Aula : " + cursos.get(i));
 //        }
         
-        Collections.sort(cursos);
+        Collections.sort(cursos);   
         System.out.println(cursos);
+        
+//        System.out.println(cursos.get(0));
+        
 	}
 
 }
