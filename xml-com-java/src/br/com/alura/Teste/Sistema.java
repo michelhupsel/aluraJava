@@ -18,6 +18,11 @@ public class Sistema {
 	public static void main(String[] args) throws Exception {
 		//fabrica
 		DocumentBuilderFactory fabrica = DocumentBuilderFactory.newInstance();
+		//validar o documento
+		fabrica.setValidating(true);
+		fabrica.setNamespaceAware(true);
+		//setar o schema de linguagem utilizada
+		fabrica.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaLanguage", "http://www.w3.org/2001/XMLSchema");
 		//construção do novo documento
 		DocumentBuilder builder = fabrica.newDocumentBuilder();
 		//ler arquivo xml a partir do path e salva em uma variável do tipo Document
