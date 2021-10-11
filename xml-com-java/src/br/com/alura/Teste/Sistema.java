@@ -23,6 +23,10 @@ public class Sistema {
 		//ler arquivo xml a partir do path e salva em uma variável do tipo Document
 		Document document = builder.parse("src/vendas.xml");
 		
+		//pegar conteúdo de atributos da tag
+		Element venda = document.getDocumentElement();
+		String moeda = venda.getAttribute("moeda");
+		System.out.println(moeda);
 		
 		NodeList produtos = document.getElementsByTagName("produto");
 		
