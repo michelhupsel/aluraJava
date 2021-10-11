@@ -16,8 +16,11 @@ import br.com.alura.Model.Produto;
 public class Sistema {
 
 	public static void main(String[] args) throws Exception {
+		//fabrica
 		DocumentBuilderFactory fabrica = DocumentBuilderFactory.newInstance();
+		//construção do novo documento
 		DocumentBuilder builder = fabrica.newDocumentBuilder();
+		//ler arquivo xml a partir do path e salva em uma variável do tipo Document
 		Document document = builder.parse("src/vendas.xml");
 		
 		
