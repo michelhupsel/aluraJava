@@ -10,6 +10,18 @@ public class Produto {
 		this.preco = preco;
 	}
 	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public Produto() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getNome() {
 		return nome;
 	}
