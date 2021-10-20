@@ -65,8 +65,15 @@ public class LeXmlComXPathArquivosDiretorio {
 
 	
 	//criado para alterar as barras do caminho dos arquivos
+	//yawintutor.com/java-util-regex-patternsyntaxexception-unexpected-internal-error-near-index-1/
 	private static String formataPath(String file) {
 		file = file.replaceAll("\\\\", "/");
 		return file;
 	}
 }
+
+
+
+
+
+
