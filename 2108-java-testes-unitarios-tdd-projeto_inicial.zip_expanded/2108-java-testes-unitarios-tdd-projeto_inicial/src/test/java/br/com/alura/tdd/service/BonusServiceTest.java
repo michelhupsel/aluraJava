@@ -26,7 +26,7 @@ class BonusServiceTest {
 			service.calcularBonus(new Funcionario("Michel", LocalDate.now(), new BigDecimal("25000")));
 			fail("Não lançou a exception!");
 		} catch (Exception e) {
-			assertEquals("Funcionário com salário maior que R$10000,00 não pode receber bônus.", e.getMessage());
+			assertEquals("Funcionário com salário maior  que R$10000,00 não pode receber bônus.", e.getMessage());
 		}
 	}
 
