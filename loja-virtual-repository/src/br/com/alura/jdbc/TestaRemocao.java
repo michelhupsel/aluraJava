@@ -1,4 +1,4 @@
-package com.conexao.java;
+package br.com.alura.jdbc;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

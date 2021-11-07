@@ -1,4 +1,4 @@
-package com.conexao.java;
+package br.com.alura.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -7,17 +7,18 @@ import javax.sql.DataSource;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 //cria conexão
-public class ConnectionFactory {
+public class ConnectionFactoryNew {
 	
-	//datasource expõe para a aplicação
+	//datasource expõe as configurações do pool de conexões
 	public DataSource dataSource;
 	
-	public ConnectionFactory() {
+	public ConnectionFactoryNew() {
 		//pool de conexões configurado
 		ComboPooledDataSource comboPooledDataSource =  new ComboPooledDataSource();
 		comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC");
+//		comboPooledDataSource.setJdbcUrl("jdbc:mysql://192.168.0.109:22/loja_virtual?useTimezone=true&serverTimezone=UTC");
 		comboPooledDataSource.setUser("root");
-		comboPooledDataSource.setPassword("321719");
+		comboPooledDataSource.setPassword("root");
 		
 		//setar o numero maximo de conexoes
 		comboPooledDataSource.setMaxPoolSize(15);
