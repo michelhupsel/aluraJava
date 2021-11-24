@@ -17,7 +17,8 @@ public class ConnectionFactory {
 		ComboPooledDataSource comboPooledDataSource =  new ComboPooledDataSource();
 		comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC");
 		comboPooledDataSource.setUser("root");
-		comboPooledDataSource.setPassword("321719");
+		comboPooledDataSource.setPassword("root");
+//		comboPooledDataSource.setPassword("321719");
 		
 		//setar o numero maximo de conexoes
 		comboPooledDataSource.setMaxPoolSize(15);
