@@ -28,7 +28,7 @@
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jersey-common-2.5.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jersey-container-servlet-core-2.5.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jersey-server-2.5.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -46,5 +46,17 @@
 	<classpathentry kind="lib" path="D:/Repositórios do Git/aluraJava/jaxb-jars/rngom-2.3.3.jar"/>
 	<classpathentry kind="lib" path="D:/Repositórios do Git/aluraJava/jaxb-jars/txw2-2.3.3.jar"/>
 	<classpathentry kind="lib" path="D:/Repositórios do Git/aluraJava/jaxb-jars/xsom-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/codemodel-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/dtd-parser-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/istack-commons-runtime-3.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/istack-commons-tools-3.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/jaxb-runtime-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/jaxb-xjc-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/relaxng-datatype-2.3.3-b02.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/rngom-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/txw2-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/NAOSINCRONIZADOS/ProjetosEclipse/ESTUDOS/aluraJava/jaxb-jars/xsom-2.3.3.jar"/>
 	<classpathentry kind="output" path="src/main/webapp/WEB-INF/classes"/>
 </classpath>

@@ -16,11 +16,13 @@ public class ClienteTest {
         Client client = ClientBuilder.newClient();
         //URI base
         WebTarget target = client.target("http://www.mocky.io");
+        
         //baseado na URI e criado um web target
         String conteudo = target.path("/v2/52aaf5deee7ba8c70329fb7d").request().get(String.class);
         
-        System.out.println(conteudo);
+//        System.out.println(conteudo);
         
-        Assert.assertTrue(conteudo.contains("<rua>Rua Vergueiro 3185"));
+        Assert.assertTrue(conteudo.contains("<rua>Rua Vergueiro 3185")); //testando se a conexão funciona
+        
     }
 }

@@ -16,5 +16,6 @@ public class ProjetoTest {
         WebTarget target = client.target("http://localhost:8080");
         String conteudo = target.path("/projetos").request().get(String.class);
         Assert.assertTrue(conteudo.contains("<nome>Minha loja"));
+
     }
 }
