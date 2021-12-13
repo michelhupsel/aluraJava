@@ -3,8 +3,8 @@ package br.com.alura.loja.modelo;
 import com.thoughtworks.xstream.XStream;
 
 public class Projeto {
-	private long id;
 	private String nome;
+	private long id;
 	private int anoDeInicio;
 	
 	public Projeto(long id, String nome, int anoDeInicio) {
@@ -15,7 +15,7 @@ public class Projeto {
 	}
 	
 	public Projeto() {
-		super();
+//		super();
 	}
 
 	public void setId(long id) {
